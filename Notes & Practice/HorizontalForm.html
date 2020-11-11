@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>BootStrap</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="js/jquery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container">
+	<form class="form-horizontal">
+		<div class="form-group">
+			<label for="name" class="control-label col-md-2">Your Name</label>
+			<div class="col-md-10"><input type="text" class="form-control"></div>
+		</div>
+		<div class="form-group">
+			<label for="name" class="control-label col-md-2">Your Email</label>
+			<div class="col-md-10"><input type="email" class="form-control"></div>
+		</div>
+		<div class="form-group">
+			<label for="name" class="control-label col-md-2">Password</label>
+			<div class="col-md-10"><input type="password" class="form-control"></div>
+		</div>
+		<div class="form-group">
+			<label for="name" class="control-label col-md-2">Confirm Password</label>
+			<div class="col-md-10"><input type="password" class="form-control"></div>
+		</div>
+		<div class="form-group">
+			<label for="comments" class="control-label col-md-2">Comments </label>
+			<div class="col-md-10">
+			<textarea class="form-control" rows="10"></textarea>
+			</div>
+		</div>
+<!-- for checkbox  -->
+		<div class="form-group">
+			<label class="control-label col-md-2">Skills:</label>
+			<div class="col-md-10">
+				<div class="checkbox">
+					<label class="control-label"><input type="checkbox">HTML</label>
+				</div>
+				<div class="checkbox">
+					<label class="control-label"><input type="checkbox">CSS</label>
+				</div>
+				<div class="checkbox">
+					<label class="control-label"><input type="checkbox">PYTHON/DJANGO</label>
+				</div>
+			</div>
+		</div>
+		
+	<!-- for checkbox items in single inline  -->
+	
+		<div class="form-group">
+			<label class="control-label col-md-2">Skills:</label>
+			<div class="col-md-10">
+				<div class="checkbox">
+					<label class="checkbox-inline"><input type="checkbox">HTML</label>
+					<label class="checkbox-inline"><input type="checkbox">CSS</label>
+					<label class="checkbox-inline"><input type="checkbox">PYTHON/DJANGO</label>
+				</div>
+			</div>
+		</div>
+
+<!--  FOR RADIO INPUT(MALE, FEMALE)  -->
+		
+		<div class="form-group">
+			<label class="control-label col-md-2">Gender:</label>
+			<div class="col-md-10">
+				<div class="radio">
+					<label><input type="radio" name="gender">Male</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="gender">Female</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-md-2">Gender:</label>
+			<div class="col-md-10">
+				<div class="radio">
+					<label class="radio-inline"><input type="radio" name="gender">Male</label>
+					<label class="radio-inline"><input type="radio" name="gender">Female</label>
+				</div>
+			</div>
+		</div>
+
+<!--  SELECT FROM MANY OPTIONS    -->
+		<div class="form-group">
+			<label class="col-md-2 control-label">Country</label>
+			<div class="col-md-10">
+				<select class="form-control">
+					<option>US</option>
+					<option>uK</option>
+					<option>Australia</option>
+					<option>Canada</option>
+					<option>Portugal</option>
+					<option>Cyprus</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-md-offset-2 col-md-10">
+			<button class="btn btn-success btn-block">Click to submit</button>
+			</div>
+		</div>
+
+	</form>
+
+</div>
+</body>
+
+</html>
